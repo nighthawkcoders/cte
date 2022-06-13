@@ -1,0 +1,7 @@
+version: '3'
+services:
+        web:
+                image: python_ctev1
+                build: .
+                ports:
+                        - "8083:8080"
